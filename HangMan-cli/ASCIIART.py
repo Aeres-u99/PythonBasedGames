@@ -186,33 +186,34 @@ smiley = [''' \
 
 
             ''']
-RULES = ['''\      |'.             ,
-                   |  '-._        / )  	     ___________________________________________________________________________________________________	
-                 .'  .._  ',     /_'-,      |                             <RULES>				    		                |
-                '   /  _'.'_\   /._)')      |Hangman is a paper and pencil guessing game for two or more players.One player thinks of a word,   | 
-               :   /  '_' '_'  /  _.'       |phrase or sentence and the othertries to guess it by suggesting letters or numbers, within a       | 
-               |E |   |Q| |Q| /   /         |certain number of guesses. The word to guess is represented by a row of dashes                     |
-					    |representing each letter of the word. If the suggested letter or number does not occur in the word,|
-              .'  _\  '-' '-'    /	    |the other player draws one element of a hanged man stick figure as a tally mark.                   |
-            .'--.(S     ,__` )  /	    |The player guessing the word may, at any time, attempt to guess the whole word.                    |
-                  '-.     _.'  /	    |If the word is correct, the game is over and the guesser wins.                                     |
-                __.--'----(   /		    |Otherwise, the other player may choose to penalize the guesser by adding an element to the diagram.|
-            _.-'     :   __\ /		    |On the other hand, if the other player makes enough incorrect guesses                              |
-           (      __.' :'  :Y		    |to allow his opponent to complete the diagram, the game is also over                               |
-            '.   '._,  :   :|		    |this time with the guesser losing.                                                                 |
-              '.     ) :.__:|		    |                                                                                                   | 
-                \    \______/		    |However, the guesser can also win by guessing all the letters or numbers that appears in the word, |
-                 '._L/_H____]		    |                                                                                                   | 
-                  /_        /		    |thereby completing the word, before the diagram is completed                                       |
-                 /  '-.__.-')		    |                                                                                                   | 
-                :      /   /		    |	                                                                                                |
-                :     /   /		    |                                                                                                   |
-              ,/_____/----;		    |                                                                                                   |
-              '._____)----'		    |								~Source: Wikipedia :p                   |
-              /     /   /		    |                                                                                                   |   
-             /     /   /		    |                                                                                                   |
-           .'     /    \		    |___________________________________________________________________________________________________|   
-      snd (______(-.____)						
+RULES = ['''\
+      |'.             ,
+      |  '-._        / )    ___________________________________________________________________________________________________	
+     .'  .._  ',     /_'-, |                             <RULES>				    		               |
+    '   /  _'.'_\   /._)') |Hangman is a paper and pencil guessing game for two or more players.One player thinks of a word,   | 
+   :   /  '_' '_'  /  _.'  |phrase or sentence and the othertries to guess it by suggesting letters or numbers, within a       | 
+   |E |   |Q| |Q| /   /    |certain number of guesses. The word to guess is represented by a row of dashes                     |
+                           |representing each letter of the word. If the suggested letter or number does not occur in the word,|
+   '  _\  '-' '-'    /     |the other player draws one element of a hanged man stick figure as a tally mark.                   |
+.'--.(S     ,__` )  /      |The player guessing the word may, at any time, attempt to guess the whole word.                    |
+      '-.     _.'  /       |If the word is correct, the game is over and the guesser wins.                                     |
+    __.--'----(   /	   |Otherwise, the other player may choose to penalize the guesser by adding an element to the diagram.|
+_.-'     :   __\ /	   |On the other hand, if the other player makes enough incorrect guesses                              |
+(      __.' :'  :Y	   |to allow his opponent to complete the diagram, the game is also over                               |
+'.   '._,  :   :|	   |this time with the guesser losing.                                                                 |
+  '.     ) :.__:|	   |                                                                                                   | 
+    \    \______/	   |However, the guesser can also win by guessing all the letters or numbers that appears in the word, |
+     '._L/_H____]	   |                                                                                                   | 
+      /_        /	   |thereby completing the word, before the diagram is completed                                       |
+     /  '-.__.-')	   |                                                                                                   | 
+     :      /   /	   |	                                                                                               |
+     :     /   /	   |                                                                                                   |
+   ,/_____/----;	   |                                                                                                   |
+   '._____)----'	   |								~Source: Wikipedia :p                  |
+    /     /   /	           |                                                                                                   |   
+   /     /   /	           |                                                                                                   |
+ .'     /    \	           |___________________________________________________________________________________________________|   
+(______(-.____)						
 ''']
 
 girl =[''' \
